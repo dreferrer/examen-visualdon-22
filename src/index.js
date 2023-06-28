@@ -111,7 +111,7 @@ const colorScale = d3
     d3.min(data.features, (d) => d.properties.precipitation),
     d3.max(data.features, (d) => d.properties.precipitation),
   ])
-  .range(['blue', 'white']);
+  .range(['white', 'blue']);
 
 // Ajouter les info-bulles
 const tooltip = d3
